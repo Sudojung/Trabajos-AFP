@@ -1,8 +1,7 @@
-NAME = "Renzo Leonardo Cienfuegos Cardenas"
-GROUP = 2
-
+AUTHOR = "Renzo Leonardo Cienfuegos Cardenas"
+-----------------------------------------------------------------------------------------------------------
 Ejercicio 1 = Realizar un algoritmo que muestre por pantalla la tabla de multiplicar del tres y del 9
-
+-----------------------------------------------------------------------------------------------------------
 num1 = int(input("Ingresa el primer número para su tabla: "))
 num2 = int(input("Ingresa el segundo número para su tabla: "))
 
