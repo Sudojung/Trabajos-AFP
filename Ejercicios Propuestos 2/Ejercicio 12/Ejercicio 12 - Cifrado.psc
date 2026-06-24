@@ -1,17 +1,19 @@
 Algoritmo CifrarNumero
 
     Definir numero Como Cadena
-    Definir d1,d2,d3,d4 Como Entero
+    Definir i Como Entero
+    Definir digitos Como Entero
+    Dimension digitos[4]
 
     Escribir "Ingrese un número de 4 dígitos:"
     Leer numero
 
-    d1 <- (ConvertirANumero(SubCadena(numero,0,0)) + 7) MOD 10
-    d2 <- (ConvertirANumero(SubCadena(numero,1,1)) + 7) MOD 10
-    d3 <- (ConvertirANumero(SubCadena(numero,2,2)) + 7) MOD 10
-    d4 <- (ConvertirANumero(SubCadena(numero,3,3)) + 7) MOD 10
+    // Convertir y cifrar cada dígito
+    Para i <- 0 Hasta 3 Hacer
+        digitos[i] <- (ConvertirANumero(SubCadena(numero,i,i)) + 7) MOD 10
+    FinPara
 
-    Escribir "Número cifrado: ",
-             d3,d4,d1,d2
+    // Intercambiar posiciones
+    Escribir "Número cifrado: ", digitos[2], digitos[3], digitos[0], digitos[1]
 
 FinAlgoritmo
