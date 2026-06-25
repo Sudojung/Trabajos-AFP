@@ -1,17 +1,14 @@
 NAME = "Renzo Leonardo Cienfuegos Cardenas"
 GROUP = 2
 
-# Se crea una variable acumuladora llamada suma
+# Inicializamos la variable acumuladora
 suma = 0
 
-# Recorremos los números naturales del 1 al 100
+# Recorremos los 100 primeros números naturales
 for i in range(1, 101):
 
-    # Calculamos el cuadrado del número actual
-    cuadrado = i * i
+    # Sumamos el cuadrado de cada número
+    suma += i * i
 
-    # Acumulamos el cuadrado en la suma total
-    suma += cuadrado
-
-# Mostramos el resultado final en pantalla
+# Mostramos el resultado
 print(f"La suma de los cuadrados de los 100 primeros números naturales es: {suma}")
