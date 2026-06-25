@@ -1,3 +1,6 @@
+NAME = "Renzo Leonardo Cienfuegos Cardenas"
+GROUP = 2
+
 # Invertir un número entero
 
 num = int(input("Ingrese un número entero: "))
