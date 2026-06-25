@@ -1,24 +1,32 @@
 NAME = "Renzo Leonardo Cienfuegos Cardenas"
 GROUP = 2
 
-# Solicitamos el número cifrado
-numero = input("Ingrese el número cifrado: ")
+# Descifrar datos de un número de 4 dígitos
+numCif = int(input("Ingrese el número cifrado (entero de 4 dígitos): "))
 
-# Arreglo para almacenar los dígitos
-digitos = [0] * 4
+# Extraer los dígitos
+d1 = numCif // 1000
+d2 = (numCif % 1000) // 100
+d3 = (numCif % 100) // 10
+d4 = numCif % 10
 
-# Restauramos el orden original
-digitos[0] = int(numero[2])
-digitos[1] = int(numero[3])
-digitos[2] = int(numero[0])
-digitos[3] = int(numero[1])
+# Revertir los intercambios
+# Deshacer intercambio del 1.º con el 3.º
+temp = d1
+d1 = d3
+d3 = temp
 
-# Recuperamos los dígitos originales
-for i in range(4):
-    digitos[i] = (digitos[i] + 3) % 10
+# Deshacer intercambio del 2.º con el 4.º
+temp = d2
+d2 = d4
+d4 = temp
 
-# Formamos el número original
-original = f"{digitos[0]}{digitos[1]}{digitos[2]}{digitos[3]}"
+# Revertir la transformación (sumar 3 equivale a restar 7 módulo 10)
+d1 = (d1 + 3) % 10
+d2 = (d2 + 3) % 10
+d3 = (d3 + 3) % 10
+d4 = (d4 + 3) % 10
 
-# Mostramos el resultado
-print(f"Número original: {original}")
+# Mostrar resultado
+print("El dato original revelado es:", end=" ")
+print(d1, d2, d3, d4, sep="")
