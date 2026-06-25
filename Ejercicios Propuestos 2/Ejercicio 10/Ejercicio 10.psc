@@ -1,13 +1,17 @@
-Algoritmo Factoriales
+Algoritmo Factorial
     Definir n, i, factorial Como Entero
     
-    // Validamos que el número sea natural 
+    // Bucle que se repite y muestra error si no es natural
     Repetir
         Escribir "Introduzca un entero positivo: "
         Leer n
+        
+        // Si se escribe un número menor a 1 sale el error
+        Si n < 1 Entonces
+            Escribir "¡Error! Debe ingresar un número natural."
+        FinSi
     Hasta Que n >= 1
     
-
     factorial <- 1
     i <- 1
     
