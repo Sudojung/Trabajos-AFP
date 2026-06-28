@@ -40,10 +40,7 @@ FIN
 
 # Prueba de Escritorio:
 
-Queremos calcular 
-\[
-9^{\frac{1}{2}} = \sqrt{9}
-\]
+Queremos calcular : 9^(1/2) 
 
 Entonces las variables son:
 - base = 9
