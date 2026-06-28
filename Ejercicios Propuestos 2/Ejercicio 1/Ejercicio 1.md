@@ -3,7 +3,7 @@
 Entrada: limite = 4
 
 
-|   i  | (factorial * i) | Resultados |
+|   i  | factorial=factorial * i | Resultados |
 |------|-----------------------|--------------------|
 |  i=0 | factorial=1 | — |
 |  i=1 | factorial = 1 * 1 = 1 | "El factorial de 1 es: 1" |
