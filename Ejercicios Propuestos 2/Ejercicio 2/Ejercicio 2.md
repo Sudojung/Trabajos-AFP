@@ -55,7 +55,7 @@ Entonces las variables son:
 | Bucle de 50 iteraciones |
 | raizz = ((2-1)*4.5 + (9 / (4.5^(2-1)))) / 2 = (4.5 + 2) / 2 | raizz = 3.25 |
 | raizz = ((2-1)*3.25 + (9 / (3.25))) / 2 = (3.25 + 2.769) / 2 | raizz = 3.0096 |
-| raizz ≈ 3.000015 | — |
+| raizz = 3.000015 | — |
 | ...| raizz = 3.0 |
 | resultado = raizz | resultado = 3.0 |
 | — | "El resultado de 9 elevado a 1/2 es: 3.0" |
