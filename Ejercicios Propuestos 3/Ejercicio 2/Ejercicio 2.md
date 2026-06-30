@@ -28,8 +28,22 @@ INICIO
     
     promedio <- suma / cantidad
     
-    Escribir "El promedio de las notas es: ", promedio
-    
+    Escribir "El promedio de las notas es: ", promedio 
 FIN
 
 # Prueba de Escritorio:
+
+Datos de entrada
+- cantidad = 4  
+- vectorNotas = 15, 12, 18, 10
+
+
+|   i   | Operación           | Resultados |
+|-------|--------------------------------|------------------|
+| i=0   | suma = 0 + 15                  | suma = 15        |
+| i=1   | suma = 15 + 12                 | suma = 27        |
+| i=2   | suma = 27 + 18                 | suma = 45        |
+| i=3   | suma = 45 + 10                 | suma = 55        |
+| promedio | 55 / 4 | 13.75| 
+
+
