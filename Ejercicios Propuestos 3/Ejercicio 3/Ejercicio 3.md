@@ -59,5 +59,7 @@ Resultado
 La matriz identidad generada es:
 
 1  0  0
+
 0  1  0
+
 0  0  1
