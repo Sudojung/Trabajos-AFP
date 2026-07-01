@@ -1,8 +1,6 @@
 NAME = "Renzo Leonardo Cienfuegos Cardenas"
 GROUP = 2
 
-# Realizar un algoritmo que muestre por pantalla la tabla de multiplicar del 3 y del 9.
-
 # Recordemos que en el input reemplazamos: 
 # num1 = 3  
 # num2 = 9
