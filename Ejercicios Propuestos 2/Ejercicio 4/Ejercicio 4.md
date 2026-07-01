@@ -47,6 +47,8 @@ FIN
 
 # Prueba de Escritorio:
 
+n=7 (cantidad de números)
+
 | # | Número | Longitud | ¿Par o Impar? | Mitad | Primera Mitad | Segunda Mitad | ¿Gemelo? | Contador |
 |---|--------|----------|-------------|-------|---------------|---------------|----------|----------|
 | 1 | 123123 | 6 | Par | 3 | "123" | "123" |  SI | 1 |
