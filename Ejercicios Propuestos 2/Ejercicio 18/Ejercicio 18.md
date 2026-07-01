@@ -73,4 +73,10 @@ Mes = 7 - Julio
 | 7 | ¿mes = 6? | NO | - |
 | 7 | ¿mes = 7? |  SI | **Julio - 31 días** |
 
+| mes | Evaluación | Operación | Salida |
+|-----|-----------|-----------|--------|
+| **0** | mes = 0  | no hay | Mes inválido | **-** |
+| **-5** | mes = -5  | no hay | Mes inválido | **-** |
+| **13** | mes = 13  | no hay | Mes inválido | **-** |
+
 
