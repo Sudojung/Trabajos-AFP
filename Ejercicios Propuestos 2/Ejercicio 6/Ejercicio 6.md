@@ -94,7 +94,7 @@ FIN
 | Entrada F1 | 10 | 5 | 2022 | - | - | - | - | - |
 | Entrada F2 | - | - | - | 5 | 2 | 2022 | - | - |
 | Comparar años | - | - | 2022 | - | - | 2022 | 2022 = 2022 | Años iguales |
-| Comparar meses | - | 5 | - | - | 2 | - | 5 > 2 | ✓ **F2 anterior** |
+| Comparar meses | - | 5 | - | - | 2 | - | 5 > 2 |  **F2 anterior** |
 
 **Resultado:** La segunda fecha (5/2/2022) es anterior.
 
@@ -108,7 +108,7 @@ FIN
 | Entrada F2 | - | - | - | 25 | 12 | 2021 | - | - |
 | Comparar años | - | - | 2021 | - | - | 2021 | 2021 = 2021 | Años iguales |
 | Comparar meses | - | 12 | - | - | 12 | - | 12 = 12 | Meses iguales |
-| Comparar días | 25 | - | - | 25 | - | - | 25 = 25 | ✓ **Fechas iguales** |
+| Comparar días | 25 | - | - | 25 | - | - | 25 = 25 | **Fechas iguales** |
 
 **Resultado:** Ambas fechas son exactamente iguales.
 
